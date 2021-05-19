@@ -16,8 +16,8 @@ public class SimpleTest {
         Configuration.downloadsFolder = "target/downloads";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("chrome");
-        capabilities.setVersion("85.0");
+//        capabilities.setBrowserName("chrome");
+//        capabilities.setVersion("85.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", false);
         capabilities.setCapability("enableLog", true);
