@@ -11,7 +11,7 @@ public class SimpleTest {
 
     @BeforeTest
     public void setUp() {
-        Configuration.remote = "http://selenoid:4444/wd/hub";
+        Configuration.remote = "http://localhost:4444/wd/hub";
         Configuration.reportsFolder = "target/surefire-reports";
         Configuration.downloadsFolder = "target/downloads";
 
@@ -20,7 +20,7 @@ public class SimpleTest {
         capabilities.setVersion("90.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", false);
-        capabilities.setCapability("enableLog", true);
+        capabilities.setCapability("enableLog", false);
         Configuration.browserCapabilities = capabilities;
 
 
