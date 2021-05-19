@@ -17,7 +17,7 @@ public class SimpleTest {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
-        capabilities.setVersion("86.0");
+        capabilities.setVersion("85.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", false);
         capabilities.setCapability("enableLog", true);
